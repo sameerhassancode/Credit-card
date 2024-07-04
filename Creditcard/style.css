@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif ;
+}
+body{
+
+width: 100vh;
+display: flex;
+
+justify-content: center;
+align-items: center;
+background-color: aliceblue;
+}
+header, .logo {
+
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo img {
+    width: 48px;
+    margin-right: 10px;
+}
+ .chip{
+
+    width: 60px;
+
+} 
+.container{
+
+    background-image: url(images/color.jpeg);
+    background-size: cover;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 400px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0,0.4)
+}
+h5{
+    color: white;
+font-size: 16px;
+font-weight: 400;
+}
+h6{
+    color: white;
+    font-size: 12px;
+}
+.container .card-deatil{
+
+    display: flex;
+justify-content: space-between;
+margin-top: 40px;
+align-items: flex-end;
+}
+.date{
+
+    
+    justify-content: space-between;
+    align-items: flex-end;
+    
+
+}

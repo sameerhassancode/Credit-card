@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    .header {
+        background-color: black;
+        display: flex;
+        align-items: center;
+    }
+.navlink{
+    display: flex;
+    width: 100%;
+}
+.navlink ul{
+list-style: none;
+display: flex;
+margin-left:auto ;
+}
+.navlink li{
+
+    padding: 20px;
+}
+
+.navlink a{
+
+    text-decoration: none;
+    color: wheat;
+}
+
+
+.logo {
+    color: rgb(255, 0, 0);
+    height: 50px; /* Adjust the size of your logo */
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding: 20px;
+align-items: center;
+text-transform: uppercase;
+
+}
